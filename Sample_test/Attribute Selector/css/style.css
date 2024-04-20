@@ -1,0 +1,42 @@
+
+ /* Selecting elements with specific attribute */
+ [target] {
+    color: blue;
+    font-weight: bold;
+}
+
+ /* Selecting elements with specific attribute value */
+ [type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Selecting elements with specific attribute value containing a substring */
+[href*="example"] {
+    text-decoration: underline;
+}
+
+/* Selecting elements with specific attribute value starting with a prefix */
+[class^="btn-"] {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Selecting elements with specific attribute value ending with a suffix */
+[src$=".png"] {
+    border: 1px solid red;
+}
+
+/* Selecting elements with specific attribute value containing a word as a whole word */
+[class~="active"] {            
+    background-color: yellow;
+}
+
+/* Selecting elements with specific attribute value starting with or matching a specified value */
+[lang|="en"] {
+    color: green;
+}
