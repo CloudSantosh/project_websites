@@ -1,7 +1,8 @@
 // script.js
-const APILINK = 'https://api.themoviedb.org/3/movie/popular?api_key=cfc0e5515a37193d3738d91e6bd2907a';  // Corrected endpoint
+
+const APILINK = 'https://api.themoviedb.org/3/movie/popular?api_key=xxxxxxxxxxxxx';  // Corrected endpoint
 const IMG_PATH = 'https://image.tmdb.org/t/p/w1280';
-const SEARCHAPI = "https://api.themoviedb.org/3/search/movie?api_key=cfc0e5515a37193d3738d91e6bd2907a&query=";  // Corrected query placement
+const SEARCHAPI = "https://api.themoviedb.org/3/search/movie?api_key=xxxxxxxxxxxxxxxx&query=";  // Corrected query placement
 
 const main = document.getElementById("section");
 const form = document.getElementById("form");
